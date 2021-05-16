@@ -3,11 +3,11 @@
 class cHijo :
     public cPadre
 {
-protected:
+public:
     cHijo():cPadre() {
         cout << "Construyo hijo" << endl;
     }
-    virtual ~cHijo();
+    virtual ~cHijo() {};
     virtual void M1() {
         //cPadre:M1();
         cout << "M1 hijo" << endl;

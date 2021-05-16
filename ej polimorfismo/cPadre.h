@@ -4,11 +4,11 @@ using namespace std;
 
 class cPadre
 {
-protected:
+public:
 	cPadre() {
-		cout << "Construyo padre";
+		cout << "Construyo padre"<< endl;
 	}
-	virtual ~cPadre();
+	virtual ~cPadre() {};//vritual xq si dsp tengo un puntero que apunta al hijo, lo elimina
 	virtual void M1() {
 		cout << "M1 padre" << endl;
 	}

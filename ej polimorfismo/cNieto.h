@@ -4,9 +4,15 @@ class cNieto :
     public cHijo
 {
 public:
-    cNieto() {
+    cNieto():cHijo(){
         cout << "Construyo nieto" << endl;
     }
-    ~cNieto();
+    ~cNieto() {};
+    virtual void M1() {
+        cout << "M1 hijo" << endl;
+    }
+    void M2() {
+        cout << "M2 hijo" << endl;
+    }
 };
 
