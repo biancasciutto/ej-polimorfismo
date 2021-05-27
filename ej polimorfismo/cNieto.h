@@ -9,10 +9,10 @@ public:
     }
     ~cNieto() {};
     virtual void M1() {
-        cout << "M1 hijo" << endl;
+        cout << "M1 nieto" << endl;
     }
     void M2() {
-        cout << "M2 hijo" << endl;
+        cout << "M2 nieto" << endl;
     }
 };
 

@@ -9,7 +9,7 @@ public:
     }
     virtual ~cHijo() {};
     virtual void M1() {
-        //cPadre:M1();
+        //cPadre::M1();
         cout << "M1 hijo" << endl;
     }
     void M2() {
